@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/LavenderBlush"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mtahfajar.miftah_1202154182_modul3.splashScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="AIR GUNUNG"
+            android:textColor="@color/SkyBlue"/>
+
+        <TextView
+            android:id="@+id/judul2"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Air murni yang berasal dari mata air"
+            android:textColor="@color/SkyBlue"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

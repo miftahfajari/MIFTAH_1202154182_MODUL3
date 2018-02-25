@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/LavenderBlush"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mtahfajar.miftah_1202154182_modul3.login">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/gambar"
+        android:layout_centerHorizontal="true"
+        android:hint="Username"
+        android:paddingTop="10dp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="25dp"
+        android:onClick="masuk"
+        android:text="Login" />
+
+
+</RelativeLayout>
